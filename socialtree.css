@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --body-bg-color: linear-gradient(63.18deg, rgba(90, 191, 195, 0.57) -20.05%, rgba(228, 217, 239, 0.88) 51.08%, #FEFEFF 100%);
+    --primary: #5ABFC3;
+  }
+
+
+body {
+    /* Gradiente feito no figma */
+    background: var(--body-bg-color);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* Centralizando */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body div.general {
+    background-color: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.12);
+}
+
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#border {
+    border: 3px solid #5ABFC3;
+    border-radius: 50%;
+} 
+
+#profilePicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#profile p {
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--primary);
+    text-align:center;
+    margin-top: 8px;
+    margin-bottom: 33px;
+}
+
+button {
+    display: block;
+    border: 1px solid var(--primary);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 67px;
+    background-color: transparent;
+    margin-bottom: 16px;
+    color: var(--primary);
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+#socialMedia {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 32px 32px 0px 32px;
+}
+
